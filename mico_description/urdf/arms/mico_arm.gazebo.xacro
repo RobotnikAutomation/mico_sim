@@ -18,35 +18,35 @@
 	</gazebo>
   
 	<gazebo reference="mico_link_1">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_2">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_3">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_4">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_5">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_hand">
-		<material>Gazebo/Black</material>
+		<material>Gazebo/FlatBlack</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_finger_1">
-		<material>Gazebo/Gray</material>
+		<material>Gazebo/Grey</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 	<gazebo reference="mico_link_finger_2">
-		<material>Gazebo/Gray</material>
+		<material>Gazebo/Grey</material>
 		<turnGravityOff>true</turnGravityOff>
 	</gazebo>
 
