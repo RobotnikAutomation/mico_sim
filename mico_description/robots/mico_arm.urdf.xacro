@@ -27,6 +27,6 @@
 	<xacro:mico name="mico" hq="${hq}" />
 
 	<!-- Gazebo ros control plugins -->
-	<xacro:ros_control/>
+	<!-- xacro:ros_control/ -->
 
 </robot>
