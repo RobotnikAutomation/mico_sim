@@ -116,7 +116,7 @@
 	</link>
 
 	<joint
-		name="j1"
+		name="mico_joint_1"
 		type="revolute">
 		<origin
 			xyz="0 0 0.1535"
@@ -130,7 +130,7 @@
     
     <transmission name="j1_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j1" />
+     <joint name="mico_joint_1" />
      <actuator name="j1_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j1_mechanical_reduction}</mechanicalReduction>
@@ -170,7 +170,7 @@
 	</link>
 
 	<joint
-		name="j2"
+		name="mico_joint_2"
 		type="revolute">
 	  <origin
         xyz="0 0 -0.1185"
@@ -184,7 +184,7 @@
     
     <transmission name="j2_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j2" />
+     <joint name="mico_joint_2" />
      <actuator name="j2_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j2_mechanical_reduction}</mechanicalReduction>
@@ -224,7 +224,7 @@
 	</link>
 
 	<joint
-		name="j3"
+		name="mico_joint_3"
 		type="revolute">
 	  <origin
         xyz="0.29 0 0"
@@ -238,7 +238,7 @@
     
     <transmission name="j3_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j3" />
+     <joint name="mico_joint_3" />
      <actuator name="j3_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j3_mechanical_reduction}</mechanicalReduction>
@@ -279,7 +279,7 @@
 	</link>
 
 	<joint
-		name="j4"
+		name="mico_joint_4"
 		type="revolute">
 	  <origin
         xyz="0.123 0 -0.00845"
@@ -293,7 +293,7 @@
     
     <transmission name="j4_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j4" />
+     <joint name="mico_joint_4" />
      <actuator name="j4_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j4_mechanical_reduction}</mechanicalReduction>
@@ -334,7 +334,7 @@
 	</link>
 
 	<joint
-		name="j5"
+		name="mico_joint_5"
 		type="revolute">
 	  <origin
         xyz="0.037 0 -0.06408"
@@ -348,7 +348,7 @@
     
     <transmission name="j5_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j5" />
+     <joint name="mico_joint_5" />
      <actuator name="j5_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j5_mechanical_reduction}</mechanicalReduction>
@@ -388,7 +388,7 @@
 	</link>
 
 	<joint
-		name="j6"
+		name="mico_joint_6"
 		type="revolute">
 	  <origin
         xyz="0.037 0 -0.06408"
@@ -402,7 +402,7 @@
     
     <transmission name="j6_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="j6" />
+     <joint name="mico_joint_6" />
      <actuator name="j6_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${j6_mechanical_reduction}</mechanicalReduction>
@@ -442,7 +442,7 @@
 	</link>
 
 	<joint
-		name="jf1"
+		name="mico_joint_finger_1"
 		type="revolute">
 	  <origin
         xyz="-0.03978 0 -0.10071"
@@ -456,7 +456,7 @@
         
     <transmission name="jf1_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="jf1" />
+     <joint name="mico_joint_finger_1" />
      <actuator name="jf1_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${jf1_mechanical_reduction}</mechanicalReduction>
@@ -497,7 +497,7 @@
 	</link>
 
 	<joint
-		name="jf2"
+		name="mico_joint_finger_2"
 		type="revolute">
 	  <origin
         xyz="0.03569 0 -0.10071"
@@ -511,7 +511,7 @@
         
     <transmission name="jf2_trans">
 	 <type>transmission_interface/SimpleTransmission</type>
-     <joint name="jf2" />
+     <joint name="mico_joint_finger_2" />
      <actuator name="jf2_motor">
 	    <hardwareInterface>EffortJointInterface</hardwareInterface>
         <mechanicalReduction>${jf2_mechanical_reduction}</mechanicalReduction>
