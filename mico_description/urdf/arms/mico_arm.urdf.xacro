@@ -341,7 +341,7 @@
         rpy="0 -${PI/180*60} 0.0" />
 	  <parent link="mico_link_4" />	
       <child link="mico_link_5" />
-      <axis xyz="0 0 -1" />
+      <axis xyz="0 0 -1" />      
       <limit effort="${joint_effort_limit}" velocity="${joint_velocity_limit}" upper="${j5_upper_limit}" lower="${j5_lower_limit}"/>
       <dynamics damping="${joint_damping}" friction="${joint_friction}"/>
     </joint>
