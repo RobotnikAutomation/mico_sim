@@ -6,7 +6,7 @@ project(mico_arm_gazebo)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   mico_arm_control
-  mico_arm_description
+  mico_description
   std_msgs
   std_srvs
   tf

@@ -7,7 +7,7 @@ project(mico_arm_control)
 find_package(catkin REQUIRED COMPONENTS
   controller_manager
   controller_manager_msgs
-  mico_arm_description
+  mico_description
   std_msgs
   std_srvs
 )
